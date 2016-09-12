@@ -6,7 +6,7 @@ import (
     "os/exec"
     "golang.org/x/net/context"
     "google.golang.org/grpc"
-    pb "./service_updater_protocol"
+    pb "github.com/cookinrelaxin/service_updater/protocol"
 )
 
 type server struct {}
