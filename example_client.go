@@ -4,7 +4,6 @@ import (
     "log"
     "golang.org/x/net/context"
     "google.golang.org/grpc"
-    // "github.com/golang/protobuf/proto"
     pb "./service_updater_protocol"
 )
 
