@@ -34,5 +34,5 @@ message UpdateResponse {
     /*
      * The exact message returned by Docker Engine upon attempting to update the service.
      */
-    string message = 1;
+    string message = 2;
 }
